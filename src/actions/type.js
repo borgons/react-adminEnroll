@@ -1,0 +1,27 @@
+//ERRORS
+export const AUTH_ERRORS = 'AUTH_ERRORS'
+
+//AUTHENTICATION
+export const USER_LOADED = 'USER_LOADED'
+export const USER_LOADING = 'USER_LOADING'
+export const REGISTER_FAIL = 'REGISTER_FAIL'
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS'
+export const LOGIN_FAIL = 'LOGIN_FAIL'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS'
+
+// ADMIN
+/* Student */
+export const ADD_STUDENTS = 'ADD_STUDENTS'
+export const EDIT_STUDENTS = 'EDIT_STUDENTS'
+export const DELETE_STUDENTS = 'DELETE_STUDENTS'
+
+/* Enroll*/
+export const ADD_ENROLL = 'ADD_ENROLL'
+export const EDIT_ENROLL = 'EDIT_ENROLL'
+export const DELETE_ENROLL = 'DELETE_ENROLL'
+
+/* Teachers */
+export const ADD_TEACHERS = 'ADD_TEACHERS'
+export const EDIT_TEACHERS = 'EDIT_TEACHERS'
+export const DELETE_TEACHERS = 'DELETE_TEACHERS'
